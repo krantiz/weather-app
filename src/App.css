@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 10px 5px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* new styling */
+
+.weather {
+  display: flex;
+  color: grey;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.weather-box {
+  background-color: #282c34;
+  padding: 40px;
+  color: antiquewhite;
+  border-radius: 10px;
+  margin: 10px;
+}
+.weather-box:hover {
+  box-shadow: 10px 10px 10px #6f6666;
+}
+.current-forecast {
+  display: flex;
+  width: 100%;
+  /* gap: 100px; */
+}
+.city-name {
+  text-align: center;
+  font-size: 2rem;
+}
+.left-details {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
+}
+.right-details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em;
+}
+.pred-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
